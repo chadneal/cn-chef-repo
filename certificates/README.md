@@ -1,7 +1,3 @@
-Creating SSL certificates is a common task done in web application infrastructures, so a rake task is provided to generate certificates.  These certificates are stored here by the ssl_cert task.  
-
-Configure the values used in the SSL certificate by modifying `config/rake.rb`.
-
 To generate a certificate set for a new monitoring server, for example:
 
     rake ssl_cert FQDN=monitoring.example.com
